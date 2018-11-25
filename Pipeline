@@ -12,7 +12,7 @@ pipeline {
     stage('Clone repository') {
 	environment {
         MYJOB = 'DevOps1'
-        BUILD = 'Sample Pipeline'
+        BUILD = 'Sample Pipeline1'
     }
       steps {
         checkout scm
